@@ -1,30 +1,29 @@
-### The source data for this project can be found here.
+The source data for this project can be found here.
 
-##1. Merge 
+1. Merge 
+The following files have been read into seperate tables each:
 
-#The following files have been read into seperate tables each:
+•x_train.txt
+•y_train.txt
+•subject_train.txt
+•x_test.txt
+•y_test.txt
+•subject_test.txt
 
-#•x_train.txt
-#•y_train.txt
-#•subject_train.txt
-#•x_test.txt
-#•y_test.txt
-#•subject_test.txt
+2. Extract
 
-##2. Extract
+All of the test and train datasets are merged into a single table using the rbind function.
 
-#All of the test and train datasets are merged into a single table using the rbind function.
+3. Extract 
 
-##3. Extract 
+Using grep we extracted all mean and std data for the merged dataset.
 
-#Using grep we extracted all mean and std data for the merged dataset.
+4. activity names 
 
-##4. activity names 
-
-#Merge data subset with the activityType table to inlude the descriptive activity names. 
+Merge data subset with the activityType table to inlude the descriptive activity names. 
 
 
-##5. tidy data set creation. 
+5. tidy data set creation. 
 
-#Using the aggregate function for the variables we created a single table containing the averages and means.
+Using the aggregate function for the variables we created a single table containing the averages and means.
 
